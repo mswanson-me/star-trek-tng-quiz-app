@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A ten question quiz to test your knowledge of Star Trek The Next Generation trivia.">
+    <title>Star Trek: The Next Generation - Quiz App</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+    <link href="grid.css" rel="stylesheet" type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <div class="container">
+    <header role="banner">
+      <div class="row">
+        <div class="col-12 top">
+          <h1>Star Trek TNG Quiz</h1>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <section role="region" id="scorekeeper" class="row">
+        <div class="col-12">
+          <span id="question-counter"></span>
+          <span id="score-counter"></span>
+        </div>
+      </section>
+
+      <section role="region" id="quiz-container" class="row">
+        <form class="js-quiz-form col-12 bottom">
+          <fieldset id="start-page" class="">
+            <h2>How familiar are you with the adventures of the Enterprise-D?</h2>
+            <button type="button" class="start-btn">Engage!</button>
+          </fieldset>
+          <fieldset id="question-page" class="hidden">
+          </fieldset>
+        </form>
+        <div class="hidden overlay">
+          <p>Please select an answer before proceeding.</p>
+        </div>
+      </section>
+    </main>
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="questionbank.js"></script>
+    <script src="index.js"></script>    
+  </body>
+</html>
