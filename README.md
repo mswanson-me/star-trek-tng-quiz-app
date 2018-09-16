@@ -2,6 +2,10 @@
 
 Quiz apps aren't really exciting, but they do involve quite a bit. While this is a boot camp project, it is not a 'code by numbers' kind of thing.
 
+## Usage
+
+Clone the repo and open 'index.html' in your browser.
+
 ## Lessons Learned
 
 * Event listeners should only be invoked once -- This caused more headaches than I care to admit.
