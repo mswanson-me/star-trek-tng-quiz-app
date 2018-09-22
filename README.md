@@ -1,7 +1,5 @@
 # star-trek-tng-quiz-app
 
-Quiz apps aren't really exciting, but they do involve quite a bit. While this is a boot camp project, it is not a 'code by numbers' kind of thing.
-
 ## Usage
 
 Clone the repo and open 'index.html' in your browser.
